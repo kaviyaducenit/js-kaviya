@@ -66,6 +66,72 @@ console.log(d.trim())
 //remove spaces
 //output=left
 
+/*-------------------------------------------------------*/
+//numbers
+//number methods
+let v=23.5732
+console.log(v.toFixed(2))
+//rounding off the number upto a specified decimal points
+//output=23.57
+console.log(v.toExponential())
+//converting to exponential from
+//output=2.35732e+1
+console.log(v.toString())
+//converting to string
+//output=23.5732
+console.log(v.toString(2))
+//binary
+//output=10111.1001001010111101001111000011011000010001001101
+console.log(v.toString(8))
+//octal
+//output=27.4453647415410464
+console.log(v.toString(16))
+//hexa
+//output=17.92bd3c361134
+
+/*----------------------------------------------------------*/
+//Global methods
+console.info("hey kaviya")
+//to view the msg in console 
+//output=hey kaviya
+console.warn("warning!!!!")
+//warns in the console
+//output=warning!!!!
+console.error("you have an error")
+//error msg will be displayed
+//output:you have an error
+console.table(["A", "B", "C"]);
+//writes a table in the console view
+//alert("hai monika");
+//alert box msg will be printed 
+//prompt("hai kaviya ,wish u all luck,hoiw much r u expecting?");
+//it prompts the visitor for input
+//confirm("hai ")
+//displays box with ok and cancel option
+console.log(Number(1))
+//displays boolean value of 1
+console.log(Number(true))
+//displays boolean value of 1
+console.log(isNaN('ujhgvhf'))
+//displays bolean of whether it is true or false
+//output=true
+console.log(parseInt("123")+parseInt("123"));
+//converts string to input
+//output=246
+console.log(parseFloat("123.123")+parseFloat("123.456"));
+//converts string to input
+//output=246.579
+var x1=Boolean(123);
+var x2=Boolean('KAVIYA');
+var res =String(x1)+String(x2);
+console.log(res);
+//checks the boolean value and it is passed as string and displayed
+//truetrue
+
+
+
+
+
 
 
 
